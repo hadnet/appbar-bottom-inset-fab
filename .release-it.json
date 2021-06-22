@@ -1,0 +1,22 @@
+{
+  "github": {
+    "release": true,
+    "releaseNotes": "auto-changelog --stdout --commit-limit false --ignore-commit-pattern \"^chore: release v\" --unreleased --template ./release-template.hbs"
+  },
+  "npm": {
+    "publish": false,
+    "skipChecks": false
+  },
+  "git": {
+    "push": true,
+    "tagName": "v${version}",
+    "commitMessage": "chore: release v${version}",
+    "changelog": "auto-changelog --stdout --commit-limit false --ignore-commit-pattern \"^chore: release v\" --unreleased --template ./release-template.hbs"
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "infile": "CHANGELOG.md",
+      "preset": "angular"
+    }
+  }
+}

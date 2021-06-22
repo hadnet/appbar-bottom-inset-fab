@@ -1,0 +1,10 @@
+{
+  "name": "appbar-bottom-inset-fab",
+  "displayName": "appbar-bottom-inset-fab",
+  "expo": {
+    "name": "appbar-bottom-inset-fab",
+    "slug": "appbar-bottom-inset-fab",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"]
+  }
+}
