@@ -4,6 +4,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "name": "appbar-bottom-inset-fab",
+  "description": "An animated bottom tab navigation for React Native, inspired by the Material Design Appbar bottom inset FAB, using Reanimated v2 and React Navigation v5",
   "version": "1.0.1",
   "author": "hadnet",
   "main": "lib/module/index.js",
